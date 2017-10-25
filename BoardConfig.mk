@@ -23,7 +23,7 @@
 #
 
 # Inherit from oppo-common
-#-include device/oppo/common/BoardConfigCommon.mk
+-include device/oppo/common/BoardConfigCommon.mk
 
 PLATFORM_PATH := device/oneplus/cheeseburger
 
@@ -251,6 +251,3 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
-
-# inherit from the proprietary version
--include vendor/oneplus/cheeseburger/BoardConfigVendor.mk
